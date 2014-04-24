@@ -1,24 +1,26 @@
 {
-  "name": "LSM303",
+  "name": "lsm303",
   "version": "0.1.0",
   "description": "Node.js Module for LSM303",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/praneshkmr/node-lsm303.git"
+  "directories": {
+    "example": "example"
   },
   "dependencies": {
-   "i2c" : "*",
-   "async" : "*"
+    "i2c": "^0.1.4"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/praneshkmr/node-lsm303.git"
   },
   "keywords": [
-    "lsm303",
-    "nodejs",
-    "beagleboard"
+    "lsm303","nodejs","node","js","bonescript"
   ],
-  "author": "Pranesh Kumar",
-  "license": "MIT"
+  "author": "Pranesh Kumar <praneshkmr@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/praneshkmr/node-lsm303/issues"
+  },
+  "homepage": "https://github.com/praneshkmr/node-lsm303"
 }
