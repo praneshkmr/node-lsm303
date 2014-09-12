@@ -1,4 +1,4 @@
-var lsm303 = require('../index');
+var lsm303 = require('lsm303');
 
 var ls  = new lsm303();
 
