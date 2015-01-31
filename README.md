@@ -21,6 +21,7 @@ Usage
 =====
 
 Checkout example/example1.js for basic usage
+Magnetometer calibration application also available in examples
 
 ```
 var lsm303 = require('lsm303');
@@ -47,6 +48,16 @@ mag.readAxes(function(err,axes){
         console.log(axes);
     }
 });
+
+// Non-tilt-compensated readHeading function
+mag.readHeading(function(err, heading){
+		if(err){
+				console.log("Error reading Magnetometer Heading : " + err);
+      }   
+      if (heading) {
+        headingTemp = heading;
+      }   
+    });
 
 mag.readTemp(function(err,temp){
     if(err){
