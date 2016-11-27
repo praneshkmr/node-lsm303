@@ -1,4 +1,4 @@
-var lsm303 = require('node-lsm303');
+var lsm303 = require('../index.js');
 var ls  = new lsm303();
 
 var axesTemp = {}, headingTemp = {};
